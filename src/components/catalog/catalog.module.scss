@@ -1,0 +1,52 @@
+.content {
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .cardProducts {
+        box-shadow: 0 0 100px 0 rgba(0, 0, 0, .6);
+        width: 200px;
+
+        .cardLogo {
+            width: 200px;
+            height: 300px;
+            background-image: url('../../image/catalog1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cardСompound {
+            color: wheat;
+            display: none;
+        }
+
+        .cardName {
+            font-size: 20px;
+            text-align: center;
+            height: 50px;
+        }
+    }
+}
+
+.cardLogo:hover .cardСompound {
+    display: flex;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardСompound li:first-child {
+    list-style: none;
+}

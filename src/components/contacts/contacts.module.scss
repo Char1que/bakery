@@ -1,0 +1,24 @@
+.contacts {
+    margin-top: 100px;
+
+    .contactsInfo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .contactsInfoText {
+            display: flex;
+            margin-top: 25px;
+            font-size: 20px;
+            line-height: 35px;
+            justify-content: space-between;
+            width: 70%;
+            
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+}

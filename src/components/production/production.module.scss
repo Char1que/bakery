@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 100px;
+
+  .contentProduction {
+    font-family: Georgia, serif;
+    text-align: left;
+    width: 50%;
+
+    .contentProductionText {
+      margin-top: 25px;
+      font-size: 20px;
+      line-height: 35px;
+    }
+  }
+
+  .contentBread {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 30%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    .contentImage {
+      -webkit-box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.6);
+    }
+  }
+}

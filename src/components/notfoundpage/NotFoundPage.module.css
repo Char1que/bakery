@@ -1,0 +1,11 @@
+.not__found_page {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,76 @@
+.wrap {
+  background-image: url("../../image/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.wrap .logo {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.wrap .container {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+.wrap .container .under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  color: black;
+}
+.wrap .container .under:hover {
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 5px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid antiquewhite;
+}
+.wrap .nameBakery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 100px;
+  color: antiquewhite;
+  font-weight: lighter;
+  text-shadow: 5px 10px #2B1015;
+  margin-bottom: 150px;
+}

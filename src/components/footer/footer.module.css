@@ -1,0 +1,16 @@
+.bottom {
+  margin-top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+.bottom .bottomFollow {
+  position: absolute;
+  color: antiquewhite;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 20px;
+  line-height: 35px;
+}
